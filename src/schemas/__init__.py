@@ -9,11 +9,13 @@ from schemas.accounts import (
     UserRegistrationRequestSchema,
     UserRegistrationResponseSchema,
     UserActivationRequestSchema,
-    MessageResponseSchema,
+    UserActivationResponseSchema,
     PasswordResetRequestSchema,
+    PasswordResetRequestResponseSchema,
     PasswordResetCompleteRequestSchema,
-    UserLoginResponseSchema,
+    PasswordResetCompleteResponseSchema,
     UserLoginRequestSchema,
+    UserLoginResponseSchema,
     TokenRefreshRequestSchema,
     TokenRefreshResponseSchema
 )
